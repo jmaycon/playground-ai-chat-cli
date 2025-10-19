@@ -1,0 +1,904 @@
+[
+  {
+    "id": "bc-001",
+    "name": "Alice Becker",
+    "company": "Becker Clean Co",
+    "email": "alice@becker-clean.example",
+    "phone": "+49-151-0000001",
+    "city": "Berlin",
+    "services": [
+      "cleaning",
+      "window cleaning",
+      "move-out cleaning"
+    ],
+    "prices": {
+      "cleaning": 25.0,
+      "window cleaning": 20.0,
+      "move-out cleaning": 30.0
+    }
+  },
+  {
+    "id": "bc-002",
+    "name": "Marco Rossi",
+    "company": "Rossi Construct",
+    "email": "marco@rossi-construct.example",
+    "phone": "+39-331-0000002",
+    "city": "Milan",
+    "services": [
+      "construction",
+      "carpentry",
+      "drywall",
+      "tiling"
+    ],
+    "prices": {
+      "construction": 65.0,
+      "carpentry": 55.0,
+      "drywall": 40.0,
+      "tiling": 45.0
+    }
+  },
+  {
+    "id": "bc-003",
+    "name": "Sofia Müller",
+    "company": "Müller Elektro",
+    "email": "sofia@mueller-elektro.example",
+    "phone": "+49-170-0000003",
+    "city": "Munich",
+    "services": [
+      "electrical",
+      "hvac",
+      "smart home"
+    ],
+    "prices": {
+      "electrical": 60.0,
+      "hvac": 70.0,
+      "smart home": 65.0
+    }
+  },
+  {
+    "id": "bc-004",
+    "name": "David Smith",
+    "company": "Smith & Sons",
+    "email": "david@smith-sons.example",
+    "phone": "+44-7700-000004",
+    "city": "London",
+    "services": [
+      "plumbing",
+      "heating",
+      "drain cleaning"
+    ],
+    "prices": {
+      "plumbing": 58.0,
+      "heating": 62.0,
+      "drain cleaning": 45.0
+    }
+  },
+  {
+    "id": "bc-005",
+    "name": "Elena Garcia",
+    "company": "Garcia Paint",
+    "email": "elena@garcia-paint.example",
+    "phone": "+34-600-000005",
+    "city": "Madrid",
+    "services": [
+      "painting",
+      "interior painting",
+      "exterior painting"
+    ],
+    "prices": {
+      "painting": 35.0,
+      "interior painting": 32.0,
+      "exterior painting": 38.0
+    }
+  },
+  {
+    "id": "bc-006",
+    "name": "Jonas Weber",
+    "company": "Weber Garten",
+    "email": "jonas@weber-garten.example",
+    "phone": "+49-176-0000006",
+    "city": "Hamburg",
+    "services": [
+      "landscaping",
+      "lawn care",
+      "tree trimming"
+    ],
+    "prices": {
+      "landscaping": 40.0,
+      "lawn care": 25.0,
+      "tree trimming": 50.0
+    }
+  },
+  {
+    "id": "bc-007",
+    "name": "Isabella Conti",
+    "company": "Conti Movers",
+    "email": "isabella@conti-movers.example",
+    "phone": "+39-320-0000007",
+    "city": "Rome",
+    "services": [
+      "moving",
+      "packing",
+      "storage"
+    ],
+    "prices": {
+      "moving": 55.0,
+      "packing": 30.0,
+      "storage": 20.0
+    }
+  },
+  {
+    "id": "bc-008",
+    "name": "Pierre Dubois",
+    "company": "Dubois Hygiene",
+    "email": "pierre@dubois-hygiene.example",
+    "phone": "+33-620-0000008",
+    "city": "Paris",
+    "services": [
+      "pest control",
+      "sanitization",
+      "cleaning"
+    ],
+    "prices": {
+      "pest control": 48.0,
+      "sanitization": 35.0,
+      "cleaning": 28.0
+    }
+  },
+  {
+    "id": "bc-009",
+    "name": "Katrin Novak",
+    "company": "Novak Handyman",
+    "email": "katrin@novak-handyman.example",
+    "phone": "+420-730-000009",
+    "city": "Prague",
+    "services": [
+      "handyman",
+      "tile repair",
+      "furniture assembly"
+    ],
+    "prices": {
+      "handyman": 35.0,
+      "tile repair": 40.0,
+      "furniture assembly": 30.0
+    }
+  },
+  {
+    "id": "bc-010",
+    "name": "Leo Fischer",
+    "company": "Fischer IT Help",
+    "email": "leo@fischer-it.example",
+    "phone": "+49-152-0000010",
+    "city": "Frankfurt",
+    "services": [
+      "it support",
+      "network setup",
+      "pc repair"
+    ],
+    "prices": {
+      "it support": 45.0,
+      "network setup": 50.0,
+      "pc repair": 40.0
+    }
+  },
+  {
+    "id": "bc-011",
+    "name": "Marta Kowalski",
+    "company": "Kowa Clean",
+    "email": "marta@kowa-clean.example",
+    "phone": "+48-600-000011",
+    "city": "Warsaw",
+    "services": [
+      "cleaning",
+      "deep cleaning",
+      "window cleaning"
+    ],
+    "prices": {
+      "cleaning": 23.0,
+      "deep cleaning": 32.0,
+      "window cleaning": 21.0
+    }
+  },
+  {
+    "id": "bc-012",
+    "name": "Andreas Vogel",
+    "company": "Vogel Bau",
+    "email": "andreas@vogel-bau.example",
+    "phone": "+49-160-0000012",
+    "city": "Stuttgart",
+    "services": [
+      "construction",
+      "roofing",
+      "flooring"
+    ],
+    "prices": {
+      "construction": 62.0,
+      "roofing": 68.0,
+      "flooring": 45.0
+    }
+  },
+  {
+    "id": "bc-013",
+    "name": "Nina Schmidt",
+    "company": "Schmidt Elektro",
+    "email": "nina@schmidt-elektro.example",
+    "phone": "+49-171-0000013",
+    "city": "Cologne",
+    "services": [
+      "electrical",
+      "smart home",
+      "security install"
+    ],
+    "prices": {
+      "electrical": 57.0,
+      "smart home": 60.0,
+      "security install": 55.0
+    }
+  },
+  {
+    "id": "bc-014",
+    "name": "Hugo Pereira",
+    "company": "Pereira Pipes",
+    "email": "hugo@pereira-pipes.example",
+    "phone": "+351-910-000014",
+    "city": "Lisbon",
+    "services": [
+      "plumbing",
+      "drain cleaning",
+      "appliance repair"
+    ],
+    "prices": {
+      "plumbing": 52.0,
+      "drain cleaning": 42.0,
+      "appliance repair": 38.0
+    }
+  },
+  {
+    "id": "bc-015",
+    "name": "Giulia Bianchi",
+    "company": "Bianchi Colori",
+    "email": "giulia@bianchi-colori.example",
+    "phone": "+39-340-0000015",
+    "city": "Florence",
+    "services": [
+      "painting",
+      "tiling",
+      "plaster"
+    ],
+    "prices": {
+      "painting": 34.0,
+      "tiling": 43.0,
+      "plaster": 36.0
+    }
+  },
+  {
+    "id": "bc-016",
+    "name": "Tomáš Dvořák",
+    "company": "Dvořák Garden",
+    "email": "tomas@dvorak-garden.example",
+    "phone": "+420-731-000016",
+    "city": "Brno",
+    "services": [
+      "landscaping",
+      "irrigation",
+      "tree trimming"
+    ],
+    "prices": {
+      "landscaping": 38.0,
+      "irrigation": 35.0,
+      "tree trimming": 48.0
+    }
+  },
+  {
+    "id": "bc-017",
+    "name": "Ana Silva",
+    "company": "Silva Move",
+    "email": "ana@silva-move.example",
+    "phone": "+351-912-000017",
+    "city": "Porto",
+    "services": [
+      "moving",
+      "packing",
+      "cleaning"
+    ],
+    "prices": {
+      "moving": 50.0,
+      "packing": 28.0,
+      "cleaning": 26.0
+    }
+  },
+  {
+    "id": "bc-018",
+    "name": "Lars Jensen",
+    "company": "Jensen Pest",
+    "email": "lars@jensen-pest.example",
+    "phone": "+45-501-000018",
+    "city": "Copenhagen",
+    "services": [
+      "pest control",
+      "sanitization",
+      "hvac"
+    ],
+    "prices": {
+      "pest control": 49.0,
+      "sanitization": 37.0,
+      "hvac": 72.0
+    }
+  },
+  {
+    "id": "bc-019",
+    "name": "Eva Horváth",
+    "company": "Horváth Handy",
+    "email": "eva@horvath-handy.example",
+    "phone": "+36-700-000019",
+    "city": "Budapest",
+    "services": [
+      "handyman",
+      "drywall",
+      "flooring"
+    ],
+    "prices": {
+      "handyman": 33.0,
+      "drywall": 39.0,
+      "flooring": 44.0
+    }
+  },
+  {
+    "id": "bc-020",
+    "name": "Andrei Popov",
+    "company": "Popov IT Care",
+    "email": "andrei@popov-it.example",
+    "phone": "+40-721-000020",
+    "city": "Bucharest",
+    "services": [
+      "it support",
+      "network setup",
+      "security install"
+    ],
+    "prices": {
+      "it support": 42.0,
+      "network setup": 48.0,
+      "security install": 52.0
+    }
+  },
+  {
+    "id": "bc-021",
+    "name": "Paula Wagner",
+    "company": "Wagner Cleaners",
+    "email": "paula@wagner-cleaners.example",
+    "phone": "+49-172-0000021",
+    "city": "Dresden",
+    "services": [
+      "cleaning",
+      "move-out cleaning",
+      "window cleaning"
+    ],
+    "prices": {
+      "cleaning": 24.0,
+      "move-out cleaning": 31.0,
+      "window cleaning": 19.0
+    }
+  },
+  {
+    "id": "bc-022",
+    "name": "Rui Almeida",
+    "company": "Almeida Obras",
+    "email": "rui@almeida-obras.example",
+    "phone": "+351-913-000022",
+    "city": "Coimbra",
+    "services": [
+      "construction",
+      "carpentry",
+      "roofing"
+    ],
+    "prices": {
+      "construction": 60.0,
+      "carpentry": 50.0,
+      "roofing": 66.0
+    }
+  },
+  {
+    "id": "bc-023",
+    "name": "Miriam Keller",
+    "company": "Keller Power",
+    "email": "miriam@keller-power.example",
+    "phone": "+41-760-000023",
+    "city": "Zurich",
+    "services": [
+      "electrical",
+      "hvac",
+      "appliance repair"
+    ],
+    "prices": {
+      "electrical": 65.0,
+      "hvac": 78.0,
+      "appliance repair": 45.0
+    }
+  },
+  {
+    "id": "bc-024",
+    "name": "Owen Murphy",
+    "company": "Murphy Flow",
+    "email": "owen@murphy-flow.example",
+    "phone": "+353-860-000024",
+    "city": "Dublin",
+    "services": [
+      "plumbing",
+      "heating",
+      "bath remodel"
+    ],
+    "prices": {
+      "plumbing": 59.0,
+      "heating": 63.0,
+      "bath remodel": 80.0
+    }
+  },
+  {
+    "id": "bc-025",
+    "name": "Irene Lopez",
+    "company": "Lopez Paint",
+    "email": "irene@lopez-paint.example",
+    "phone": "+34-601-000025",
+    "city": "Valencia",
+    "services": [
+      "painting",
+      "interior painting",
+      "flooring"
+    ],
+    "prices": {
+      "painting": 33.0,
+      "interior painting": 31.0,
+      "flooring": 46.0
+    }
+  },
+  {
+    "id": "bc-026",
+    "name": "Sven Richter",
+    "company": "Richter Green",
+    "email": "sven@richter-green.example",
+    "phone": "+49-173-000026",
+    "city": "Leipzig",
+    "services": [
+      "landscaping",
+      "lawn care",
+      "pest control"
+    ],
+    "prices": {
+      "landscaping": 39.0,
+      "lawn care": 24.0,
+      "pest control": 47.0
+    }
+  },
+  {
+    "id": "bc-027",
+    "name": "Helena Costa",
+    "company": "Costa Movers",
+    "email": "helena@costa-movers.example",
+    "phone": "+351-914-000027",
+    "city": "Faro",
+    "services": [
+      "moving",
+      "storage",
+      "packing"
+    ],
+    "prices": {
+      "moving": 53.0,
+      "storage": 19.0,
+      "packing": 27.0
+    }
+  },
+  {
+    "id": "bc-028",
+    "name": "Björn Andersson",
+    "company": "Andersson Hygiene",
+    "email": "bjorn@andersson-hygiene.example",
+    "phone": "+46-730-000028",
+    "city": "Stockholm",
+    "services": [
+      "pest control",
+      "sanitization",
+      "cleaning"
+    ],
+    "prices": {
+      "pest control": 50.0,
+      "sanitization": 36.0,
+      "cleaning": 27.0
+    }
+  },
+  {
+    "id": "bc-029",
+    "name": "Zuzana Kovář",
+    "company": "Kovář Handy",
+    "email": "zuzana@kovar-handy.example",
+    "phone": "+420-732-000029",
+    "city": "Ostrava",
+    "services": [
+      "handyman",
+      "tiling",
+      "window cleaning"
+    ],
+    "prices": {
+      "handyman": 31.0,
+      "tiling": 42.0,
+      "window cleaning": 20.0
+    }
+  },
+  {
+    "id": "bc-030",
+    "name": "Milos Jovanovic",
+    "company": "Jovanovic IT",
+    "email": "milos@jovanovic-it.example",
+    "phone": "+381-600-000030",
+    "city": "Belgrade",
+    "services": [
+      "it support",
+      "pc repair",
+      "smart home"
+    ],
+    "prices": {
+      "it support": 40.0,
+      "pc repair": 38.0,
+      "smart home": 58.0
+    }
+  },
+  {
+    "id": "bc-031",
+    "name": "Nora Bauer",
+    "company": "Bauer Clean",
+    "email": "nora@bauer-clean.example",
+    "phone": "+49-174-000031",
+    "city": "Nuremberg",
+    "services": [
+      "cleaning",
+      "window cleaning",
+      "sanitization"
+    ],
+    "prices": {
+      "cleaning": 22.0,
+      "window cleaning": 18.0,
+      "sanitization": 34.0
+    }
+  },
+  {
+    "id": "bc-032",
+    "name": "Yuri Ivanov",
+    "company": "Ivanov Build",
+    "email": "yuri@ivanov-build.example",
+    "phone": "+359-880-000032",
+    "city": "Sofia",
+    "services": [
+      "construction",
+      "drywall",
+      "flooring"
+    ],
+    "prices": {
+      "construction": 58.0,
+      "drywall": 37.0,
+      "flooring": 43.0
+    }
+  },
+  {
+    "id": "bc-033",
+    "name": "Helga Steiner",
+    "company": "Steiner Electric",
+    "email": "helga@steiner-electric.example",
+    "phone": "+43-660-000033",
+    "city": "Vienna",
+    "services": [
+      "electrical",
+      "security install",
+      "network setup"
+    ],
+    "prices": {
+      "electrical": 63.0,
+      "security install": 54.0,
+      "network setup": 49.0
+    }
+  },
+  {
+    "id": "bc-034",
+    "name": "Jorge Santos",
+    "company": "Santos Pipes",
+    "email": "jorge@santos-pipes.example",
+    "phone": "+351-915-000034",
+    "city": "Braga",
+    "services": [
+      "plumbing",
+      "appliance repair",
+      "drain cleaning"
+    ],
+    "prices": {
+      "plumbing": 51.0,
+      "appliance repair": 39.0,
+      "drain cleaning": 41.0
+    }
+  },
+  {
+    "id": "bc-035",
+    "name": "Anna Ruiz",
+    "company": "Ruiz Colors",
+    "email": "anna@ruiz-colors.example",
+    "phone": "+34-602-000035",
+    "city": "Seville",
+    "services": [
+      "painting",
+      "exterior painting",
+      "roofing"
+    ],
+    "prices": {
+      "painting": 32.0,
+      "exterior painting": 37.0,
+      "roofing": 67.0
+    }
+  },
+  {
+    "id": "bc-036",
+    "name": "Peter Novak",
+    "company": "Novak Landscapes",
+    "email": "peter@novak-landscapes.example",
+    "phone": "+421-910-000036",
+    "city": "Bratislava",
+    "services": [
+      "landscaping",
+      "irrigation",
+      "lawn care"
+    ],
+    "prices": {
+      "landscaping": 41.0,
+      "irrigation": 33.0,
+      "lawn care": 23.0
+    }
+  },
+  {
+    "id": "bc-037",
+    "name": "Marta Sousa",
+    "company": "Sousa Move",
+    "email": "marta@sousa-move.example",
+    "phone": "+351-916-000037",
+    "city": "Aveiro",
+    "services": [
+      "moving",
+      "packing",
+      "handyman"
+    ],
+    "prices": {
+      "moving": 52.0,
+      "packing": 26.0,
+      "handyman": 34.0
+    }
+  },
+  {
+    "id": "bc-038",
+    "name": "Erik Nilsson",
+    "company": "Nilsson Pest",
+    "email": "erik@nilsson-pest.example",
+    "phone": "+46-731-000038",
+    "city": "Gothenburg",
+    "services": [
+      "pest control",
+      "cleaning",
+      "sanitization"
+    ],
+    "prices": {
+      "pest control": 46.0,
+      "cleaning": 26.0,
+      "sanitization": 35.0
+    }
+  },
+  {
+    "id": "bc-039",
+    "name": "Dominika Vesely",
+    "company": "Vesely Handy",
+    "email": "dominika@vesely-handy.example",
+    "phone": "+420-733-000039",
+    "city": "Pilsen",
+    "services": [
+      "handyman",
+      "drywall",
+      "carpentry"
+    ],
+    "prices": {
+      "handyman": 32.0,
+      "drywall": 38.0,
+      "carpentry": 52.0
+    }
+  },
+  {
+    "id": "bc-040",
+    "name": "Ivan Petrov",
+    "company": "Petrov IT Help",
+    "email": "ivan@petrov-it.example",
+    "phone": "+359-881-000040",
+    "city": "Varna",
+    "services": [
+      "it support",
+      "network setup",
+      "security install"
+    ],
+    "prices": {
+      "it support": 41.0,
+      "network setup": 47.0,
+      "security install": 51.0
+    }
+  },
+  {
+    "id": "bc-041",
+    "name": "Helene Brandt",
+    "company": "Brandt Clean",
+    "email": "helene@brandt-clean.example",
+    "phone": "+49-175-000041",
+    "city": "Hannover",
+    "services": [
+      "cleaning",
+      "deep cleaning",
+      "move-out cleaning"
+    ],
+    "prices": {
+      "cleaning": 24.0,
+      "deep cleaning": 33.0,
+      "move-out cleaning": 29.0
+    }
+  },
+  {
+    "id": "bc-042",
+    "name": "Mateo Alvarez",
+    "company": "Alvarez Build",
+    "email": "mateo@alvarez-build.example",
+    "phone": "+34-603-000042",
+    "city": "Bilbao",
+    "services": [
+      "construction",
+      "roofing",
+      "tiling"
+    ],
+    "prices": {
+      "construction": 61.0,
+      "roofing": 69.0,
+      "tiling": 44.0
+    }
+  },
+  {
+    "id": "bc-043",
+    "name": "Klara Weiss",
+    "company": "Weiss Elektro",
+    "email": "klara@weiss-elektro.example",
+    "phone": "+49-176-000043",
+    "city": "Bonn",
+    "services": [
+      "electrical",
+      "smart home",
+      "appliance repair"
+    ],
+    "prices": {
+      "electrical": 59.0,
+      "smart home": 61.0,
+      "appliance repair": 44.0
+    }
+  },
+  {
+    "id": "bc-044",
+    "name": "Seamus O'Neil",
+    "company": "O'Neil Plumbing",
+    "email": "seamus@oneil-plumbing.example",
+    "phone": "+353-861-000044",
+    "city": "Cork",
+    "services": [
+      "plumbing",
+      "heating",
+      "drain cleaning"
+    ],
+    "prices": {
+      "plumbing": 56.0,
+      "heating": 64.0,
+      "drain cleaning": 43.0
+    }
+  },
+  {
+    "id": "bc-045",
+    "name": "Lucia Moreno",
+    "company": "Moreno Paint",
+    "email": "lucia@moreno-paint.example",
+    "phone": "+34-604-000045",
+    "city": "Zaragoza",
+    "services": [
+      "painting",
+      "interior painting",
+      "flooring"
+    ],
+    "prices": {
+      "painting": 33.0,
+      "interior painting": 30.0,
+      "flooring": 45.0
+    }
+  },
+  {
+    "id": "bc-046",
+    "name": "Ralph König",
+    "company": "König Gardens",
+    "email": "ralph@konig-gardens.example",
+    "phone": "+49-177-000046",
+    "city": "Bremen",
+    "services": [
+      "landscaping",
+      "tree trimming",
+      "pest control"
+    ],
+    "prices": {
+      "landscaping": 42.0,
+      "tree trimming": 49.0,
+      "pest control": 45.0
+    }
+  },
+  {
+    "id": "bc-047",
+    "name": "Patrícia Nunes",
+    "company": "Nunes Move",
+    "email": "patricia@nunes-move.example",
+    "phone": "+351-917-000047",
+    "city": "Guimarães",
+    "services": [
+      "moving",
+      "storage",
+      "cleaning"
+    ],
+    "prices": {
+      "moving": 51.0,
+      "storage": 18.0,
+      "cleaning": 25.0
+    }
+  },
+  {
+    "id": "bc-048",
+    "name": "Mikael Saarinen",
+    "company": "Saarinen Hygiene",
+    "email": "mikael@saarinen-hygiene.example",
+    "phone": "+358-400-000048",
+    "city": "Helsinki",
+    "services": [
+      "pest control",
+      "sanitization",
+      "window cleaning"
+    ],
+    "prices": {
+      "pest control": 51.0,
+      "sanitization": 36.0,
+      "window cleaning": 22.0
+    }
+  },
+  {
+    "id": "bc-049",
+    "name": "Beata Nowak",
+    "company": "Nowak Handy",
+    "email": "beata@nowak-handy.example",
+    "phone": "+48-601-000049",
+    "city": "Gdansk",
+    "services": [
+      "handyman",
+      "tiling",
+      "flooring"
+    ],
+    "prices": {
+      "handyman": 34.0,
+      "tiling": 41.0,
+      "flooring": 42.0
+    }
+  },
+  {
+    "id": "bc-050",
+    "name": "Filip Marin",
+    "company": "Marin IT",
+    "email": "filip@marin-it.example",
+    "phone": "+385-91-000050",
+    "city": "Zagreb",
+    "services": [
+      "it support",
+      "pc repair",
+      "smart home"
+    ],
+    "prices": {
+      "it support": 43.0,
+      "pc repair": 39.0,
+      "smart home": 57.0
+    }
+  }
+]

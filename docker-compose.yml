@@ -1,0 +1,41 @@
+services:
+  # ---- mitmproxy as reverse proxy with Web UI ----
+  mitm:
+    image: mitmproxy/mitmproxy:latest
+    container_name: mitm
+    command: >
+      mitmweb
+      --mode reverse:http://host.docker.internal:11434
+      --listen-host 0.0.0.0
+      --listen-port 8080
+      --web-host 0.0.0.0
+      --web-port 8081
+      --set web_password=test
+    ports:
+      - "30001:8080"   # proxy endpoint
+      - "30002:8081"   # mitmweb UI
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # ---- Jaeger (all-in-one) ----
+  jaeger:
+    image: jaegertracing/all-in-one:1.57
+    container_name: jaeger
+    ports:
+      - "16686:16686"   # Jaeger UI
+      - "4317:4317"     # OTLP gRPC
+      - "4318:4318"     # OTLP HTTP
+
+  # ---- Postgres with pgvector ----
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: pgvector
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ai
+    ports:
+      - "5432:5432"
+
+

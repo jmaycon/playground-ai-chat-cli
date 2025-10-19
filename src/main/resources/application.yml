@@ -1,0 +1,35 @@
+# src/main/resources/application.yml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ai
+    username: postgres
+    password: postgres
+  ai:
+    ollama:
+      base-url: ${SPRING_AI_OLLAMA_BASEURL:http://localhost:30001}
+      chat:
+        options:
+          model: llama3.1:8b-instruct-q4_K_M
+          temperature: 0.2
+      embedding:
+        base-url: ${SPRING_AI_OLLAMA_BASEURL:http://localhost:30001}
+        options:
+          model: mxbai-embed-large
+    vectorstore:
+      pgvector:
+        id-type: TEXT
+        table-name: business_cards
+        initialize-schema: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1024
+  main:
+    web-application-type: none
+
+
+# Optional: log requests/responses from WebClient (dev only)
+logging:
+  level:
+    reactor.netty.http.client: INFO
+    org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
+
